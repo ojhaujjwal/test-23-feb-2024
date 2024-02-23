@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest",
+    "test": "jest --config jest.config.cjs",
     "build": "tsc",
     "dev": "tsx src/main.ts"
   },
